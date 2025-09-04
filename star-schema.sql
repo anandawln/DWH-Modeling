@@ -1,4 +1,4 @@
-USE DataWarehouse_Faculty
+USE DWH_Faculty
 
 GO
 
@@ -37,5 +37,6 @@ CREATE TABLE Any_Fact_Table(
 	[Faculty_key],[Other_key_1],[Other_key_2]
 	)
 )
+
 
 
