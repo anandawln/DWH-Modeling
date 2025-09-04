@@ -17,7 +17,7 @@ CREATE TABLE Faculty_dim(
 	Dept_Name NVARCHAR (40) NOT NULL,
 	Dept_year_founded INT,
 
-	/* field dept dimension*/
+	/* field college dimension*/
 	College_ID NVARCHAR (10) NOT NULL,
 	College_Name NVARCHAR (40) NOT NULL,
 	College_year_founded INT,
@@ -37,4 +37,5 @@ CREATE TABLE Any_Fact_Table(
 	[Faculty_key],[Other_key_1],[Other_key_2]
 	)
 )
+
 
